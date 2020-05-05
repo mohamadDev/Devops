@@ -34,4 +34,9 @@ Initialize cluster
 ```
 kubeadm init --apiserver-advertise-address={{MA.STER.IP.ADDR}}  --pod-network-cidr=192.168.0.0/16
 ```
-
+command above may take few minutes and in return it gives you a token by which you can append new nodes to your cluster. excute it in any other node that you would like to join to your cluster
+ 
+ ```
+kubeadm join MA.STER.IP.ADDR:6443 --token ce#####n.########## \
+    --discovery-token-ca-cert-hash sha256:6#######3f8a#################f##########3
+```
