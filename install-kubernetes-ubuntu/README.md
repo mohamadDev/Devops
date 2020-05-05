@@ -76,3 +76,15 @@ kubectl apply -f https://docs.projectcalico.org/v3.11/manifests/calico.yaml
 
 here we are using Calico there are other options available, read more [Here]( https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network)
 
+now run
+```
+kubectl get pods --all-namespaces
+```
+you should see all pods running that means, you have successfuly created your cluster. run  kubectl get nodes  status of your nodes has to be changed to ready and this means you can deploy your application on it 
+
+
+#READ MORE
+[install kubernetess dashboard, FULL GUIDE](https://github.com/mohamadDev/Devops/blob/master/Kubernetes-Dashboard/README.md)
+
+
+
