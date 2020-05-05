@@ -74,6 +74,6 @@ in order to install network pluging excute following command
 kubectl apply -f https://docs.projectcalico.org/v3.11/manifests/calico.yaml
 ```
 
-here we are using Calico there are other options available, read more [Here]:https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network
+here we are using Calico there are other options available, read more [link text Here]: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network
 
 
