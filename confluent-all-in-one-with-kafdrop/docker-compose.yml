@@ -183,9 +183,6 @@ services:
       - 9000:9000
     depends_on:
       - broker
-      - zookeeper
-      - broker
-      - schema-registry
     hostname: kafdrop
     container_name: kafdrop
     environment:
